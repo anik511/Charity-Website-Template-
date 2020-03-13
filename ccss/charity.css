@@ -1,0 +1,351 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2018, 11:23:45 PM
+    Author     : Anik Datta
+*/
+
+body {
+    color: black;
+    font-family: 'Open Sans', Tahoma, Arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+.icon-list {
+
+    list-style-type: none;
+    text-decoration: none;
+}
+.text-4{
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+}
+.text-3{
+    padding-top: 20px;
+    color: white;
+}
+.icon-color{
+    color: #FF8F00;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    background-color: #FFD148;
+    height: 1px;
+    margin: 1.25rem auto;
+    width: 100px;
+}
+.title-text{
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+.title-text2{
+    font-family: 'Limelight', cursive;
+    color: white;
+}
+.title-1{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.margin{
+    margin-bottom: 80px;
+}
+.card{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.card:hover{
+    box-shadow: -2px 3px 5px #888888;
+}
+.card-body{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-title{
+    margin-bottom: 15px;
+    font-family: 'Limelight', cursive;
+}
+.card-text{
+    font-family: 'Quicksand', sans-serif;
+}
+.img-size{
+    float: left;
+
+}
+.card-color{
+    background-color: #262626; 
+}
+.card-title11{
+    color:  #FFD148;
+    display: block;
+
+}
+.collapsed{
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+.card-text1{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.card-header{
+
+}
+.new-padding{
+    padding: 20px;
+}
+.cr-img{
+    border-radius: 50%;
+    width: 182px;
+    height: 162px;
+    margin-left: 80px;
+}
+.text2{
+    color: black;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    margin-top: 20px;
+}
+.new-pdd{
+    margin: 20px 0px 0px 0px;
+}
+.title-text1{
+    font-family: 'Limelight', cursive;
+}
+.accordion {
+    background-color: #eee;
+    color: #FF6F00;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #212121;
+    font-family: 'Lobster', cursive;
+}
+.new-card1{
+    border-radius: 10px;
+    background-color: white;
+    transform: scale(1);
+    transition: .4s;
+}
+.new-card1:hover{
+    box-shadow: -2px 3px 5px #888888;
+    transform: scale(1.02);
+}
+.float img{
+    width: 100%;
+
+}
+.img-height{
+    height: 50% ;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.sec-w{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-image: url(../img/uni170424.jpg );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+.panel {
+    margin-bottom: 0px !important;
+    font-family: 'Itim', cursive;
+    max-height: 0;
+    overflow: hidden;
+    color: #000000;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+}
+.float{
+    float: left;
+    background-color: black;
+}
+
+.width{
+
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+
+.doner-box{
+    background-color: black;
+    padding-bottom: 31px;
+
+}
+.donar{
+    font-family: 'Bowlby One SC', cursive;
+    padding-top: 36px;
+    color: #FF6F00;
+
+}
+.button1{
+    background-color: #FF6F00;
+}
+
+.donate-in{
+    margin-top: 33px;
+}
+.m-auto{
+    height: 100%;
+    width: 100%;
+}
+.vedio{
+    margin-top: 50px;
+}
+
+/* Global */
+
+
+
+.img-h{
+    height: 250px !important;
+}
+
+
+.li-mr{
+    margin-bottom: 30px;
+}
+
+
+
+.thumbnails li> .fff .caption { 
+    background:#B2EBF2 !important; 
+    padding:23px;
+
+
+}
+
+/* Page Header */
+.page-header {
+    background: #f9f9f9;
+    margin: -30px -40px 40px;
+    padding: 20px 40px;
+    border-top: 4px solid #ccc;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.page-header h3 {
+    line-height: 0.88rem;
+    color: #000;
+}
+
+ul.thumbnails { 
+    margin-bottom: 0px;
+}
+
+
+
+/* Thumbnail Box */
+.caption h4 {
+    color: #444;
+}
+
+.caption p {  
+    color: #999;
+}
+
+
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+
+body {
+    font-family: Arial;
+    padding: 25px;
+    background-color: #f5f5f5;
+    color: #808080;
+    text-align: center;	
+}
+.end { margin-right: 0 !important; }
+.counter-mar{
+
+    margin-left: 60px;
+    padding: 35px;
+}
+.text-text{
+    font-family: 'Lobster', cursive;
+    color: #fd7e14;
+}
+.text-ico{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 800;
+
+    color: white;
+}
+
+
+.counter1{
+    background: #000000;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+
+
+
+
+@media screen and (max-width:600px){
+    .width{
+        width: 100%;
+    }
+    .sec-w{
+        height: 1200px;
+    }
+    .cr-img{
+
+        margin-left: 123px;
+    }
+    .counter1{
+        height: 600px;
+    }
+}
